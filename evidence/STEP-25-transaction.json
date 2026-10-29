@@ -1,0 +1,147 @@
+[
+    {
+        "transactionId": "0d0b87ed-e2dc-478b-ab88-e5ddc1d371eb",
+        "batchId": "B-24187",
+        "componentId": "DYE-4471-B",
+        "code": "DYE-1180",
+        "name": "Remazol Brill. Blue RSPL",
+        "lot": "2026-0341",
+        "container": "C-09",
+        "tare": {
+            "value": 214,
+            "unit": "g"
+        },
+        "scaleId": "scale-3kg",
+        "target": {
+            "value": 1240,
+            "unit": "g"
+        },
+        "tolerance": {
+            "value": 6,
+            "unit": "g"
+        },
+        "actual": {
+            "value": 1241.5,
+            "unit": "g"
+        },
+        "result": "IN_TOLERANCE",
+        "operatorId": "OP-017",
+        "timestamp": "2026-10-29T15:05:47.370Z"
+    },
+    {
+        "transactionId": "a36867fa-0806-472c-8b2a-870d7cbebe01",
+        "batchId": "B-24187",
+        "componentId": "DYE-2204-R",
+        "code": "DYE-2204",
+        "name": "Remazol Red RB",
+        "lot": "2026-0298",
+        "container": "C-11",
+        "tare": {
+            "value": 214,
+            "unit": "g"
+        },
+        "scaleId": "scale-3kg",
+        "target": {
+            "value": 386,
+            "unit": "g"
+        },
+        "tolerance": {
+            "value": 2,
+            "unit": "g"
+        },
+        "actual": {
+            "value": 385.4,
+            "unit": "g"
+        },
+        "result": "IN_TOLERANCE",
+        "operatorId": "OP-017",
+        "timestamp": "2026-10-29T15:05:47.388Z"
+    },
+    {
+        "transactionId": "ef5523ee-7d46-4cc1-b070-20b5fc6ac8a2",
+        "batchId": "B-24187",
+        "componentId": "DYE-4471-Y",
+        "code": "DYE-4471",
+        "name": "Remazol Yellow RGB",
+        "lot": "2026-0387",
+        "container": "C-12",
+        "tare": {
+            "value": 214,
+            "unit": "g"
+        },
+        "scaleId": "scale-3kg",
+        "target": {
+            "value": 94,
+            "unit": "g"
+        },
+        "tolerance": {
+            "value": 0.5,
+            "unit": "g"
+        },
+        "actual": {
+            "value": 94.2,
+            "unit": "g"
+        },
+        "result": "IN_TOLERANCE",
+        "operatorId": "OP-017",
+        "timestamp": "2026-10-29T15:05:47.403Z"
+    },
+    {
+        "transactionId": "fde91526-b230-4243-a85d-ed6d6f39e62a",
+        "batchId": "B-24187",
+        "componentId": "AUX-0101",
+        "code": "AUX-0101",
+        "name": "Sodium Sulphate",
+        "lot": "2026-0112",
+        "container": "D-03",
+        "tare": {
+            "value": 1.85,
+            "unit": "kg"
+        },
+        "scaleId": "scale-32kg",
+        "target": {
+            "value": 24,
+            "unit": "kg"
+        },
+        "tolerance": {
+            "value": 0.12,
+            "unit": "kg"
+        },
+        "actual": {
+            "value": 23.98,
+            "unit": "kg"
+        },
+        "result": "IN_TOLERANCE",
+        "operatorId": "OP-017",
+        "timestamp": "2026-10-29T15:05:47.415Z"
+    },
+    {
+        "transactionId": "6321d27c-5d17-4cb0-a9f4-d0dc3c35070a",
+        "batchId": "B-24187",
+        "componentId": "AUX-0107",
+        "code": "AUX-0107",
+        "name": "Soda Ash",
+        "lot": "2026-0155",
+        "container": "D-05",
+        "tare": {
+            "value": 1.85,
+            "unit": "kg"
+        },
+        "scaleId": "scale-32kg",
+        "target": {
+            "value": 9.6,
+            "unit": "kg"
+        },
+        "tolerance": {
+            "value": 0.048,
+            "unit": "kg"
+        },
+        "actual": {
+            "value": 9.621,
+            "unit": "kg"
+        },
+        "result": "IN_TOLERANCE",
+        "operatorId": "OP-017",
+        "timestamp": "2026-10-29T15:05:47.428Z"
+    }
+]

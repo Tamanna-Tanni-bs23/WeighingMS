@@ -1,0 +1,31 @@
+
+ RUN  v5.0.5 /home/bs01828/Projects/weighingms
+
+ ✓ src/server/domain/rules.test.ts > tolerance evaluation — Yellow RGB, target 94.0 g ±0.5 g (workbook Step 22) > 93.4 g → UNDER, confirm blocked 1ms
+ ✓ src/server/domain/rules.test.ts > tolerance evaluation — Yellow RGB, target 94.0 g ±0.5 g (workbook Step 22) > 93.5 g → IN_RANGE, confirm allowed 0ms
+ ✓ src/server/domain/rules.test.ts > tolerance evaluation — Yellow RGB, target 94.0 g ±0.5 g (workbook Step 22) > 94 g → TARGET, confirm allowed 0ms
+ ✓ src/server/domain/rules.test.ts > tolerance evaluation — Yellow RGB, target 94.0 g ±0.5 g (workbook Step 22) > 94.5 g → IN_RANGE, confirm allowed 0ms
+ ✓ src/server/domain/rules.test.ts > tolerance evaluation — Yellow RGB, target 94.0 g ±0.5 g (workbook Step 22) > 94.6 g → OVER, confirm blocked 0ms
+ ✓ src/server/domain/rules.test.ts > tolerance evaluation — Yellow RGB, target 94.0 g ±0.5 g (workbook Step 22) > reports the band for the caption (93.5 – 94.5) 0ms
+ ✓ src/server/domain/rules.test.ts > tolerance evaluation — Yellow RGB, target 94.0 g ±0.5 g (workbook Step 22) > flags "near" from 90 % of target while still under 0ms
+ ✓ src/server/domain/rules.test.ts > tolerance evaluation — Yellow RGB, target 94.0 g ±0.5 g (workbook Step 22) > calculates surplus and percent on overshoot (prototype: +2.4 g, +2.6 %) 0ms
+ ✓ src/server/domain/rules.test.ts > tolerance evaluation — Yellow RGB, target 94.0 g ±0.5 g (workbook Step 22) > is immune to floating-point noise at the boundary 0ms
+ ✓ src/server/domain/rules.test.ts > tolerance evaluation — kg components and unit conversion > Sodium Sulphate 24.000 kg ±0.120 kg 0ms
+ ✓ src/server/domain/rules.test.ts > tolerance evaluation — kg components and unit conversion > project-requirement §7 example: 1.000 kg ±0.010 kg 0ms
+ ✓ src/server/domain/rules.test.ts > tolerance evaluation — kg components and unit conversion > evaluates a gram reading against a kg target 0ms
+ ✓ src/server/domain/rules.test.ts > scale selection (project-requirement §5.3) > { value: 94, unit: 'g' } → scale-3kg 0ms
+ ✓ src/server/domain/rules.test.ts > scale selection (project-requirement §5.3) > { value: 1240, unit: 'g' } → scale-3kg 0ms
+ ✓ src/server/domain/rules.test.ts > scale selection (project-requirement §5.3) > { value: 0.25, unit: 'kg' } → scale-3kg 0ms
+ ✓ src/server/domain/rules.test.ts > scale selection (project-requirement §5.3) > { value: 3, unit: 'kg' } → scale-3kg 0ms
+ ✓ src/server/domain/rules.test.ts > scale selection (project-requirement §5.3) > { value: 3000, unit: 'g' } → scale-3kg 0ms
+ ✓ src/server/domain/rules.test.ts > scale selection (project-requirement §5.3) > { value: 3.001, unit: 'kg' } → scale-32kg 0ms
+ ✓ src/server/domain/rules.test.ts > scale selection (project-requirement §5.3) > { value: 24, unit: 'kg' } → scale-32kg 0ms
+ ✓ src/server/domain/rules.test.ts > scale selection (project-requirement §5.3) > { value: 9.6, unit: 'kg' } → scale-32kg 0ms
+ ✓ src/server/domain/rules.test.ts > scale selection (project-requirement §5.3) > follows configuration, not code 0ms
+ ✓ src/server/domain/rules.test.ts > surplus proposal — ADR-001 information only > reproduces the prototype figures for a +2.6 % Yellow RGB overshoot 0ms
+
+ Test Files  1 passed (1)
+      Tests  22 passed (22)
+   Start at  21:05:48
+   Duration  102ms (transform 39%, import 38%, tests 15%, worker 8%)
+

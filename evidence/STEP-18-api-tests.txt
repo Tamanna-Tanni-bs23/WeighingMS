@@ -1,0 +1,32 @@
+$ curl http://localhost:5181/api/batches
+[{"batchId":"B-24187","orderId":"SO-9931","machine":"JET-04","fabric":"100% CTN knit · 480 kg","shade":"Teal 4C","componentCount":5,"status":"RELEASED","queuedAt":"2026-08-04T06:12:00Z"},{"batchId":"B-24188","orderId":"SO-9931","machine":"JET-07","fabric":"100% CTN knit · 520 kg","shade":"Teal 4C","componentCount":5,"status":"RELEASED","queuedAt":"2026-08-04T06:12:00Z","trainingData":true},{"batchId":"B-24190","orderId":"SO-9944","machine":"JET-02","fabric":"CVC fleece · 310 kg","shade":"Navy 12","componentCount":7,"status":"RELEASED","queuedAt":"2026-08-04T06:12:00Z","trainingData":true},{"batchId":"B-24191","orderId":"SO-9947","machine":"WINCH-01","fabric":"Viscose jersey · 190 kg","shade":"Rose 08","componentCount":4,"status":"RELEASED","queuedAt":"2026-08-04T06:12:00Z","trainingData":true}]
+[HTTP 200]
+
+$ curl http://localhost:5181/api/batches/B-24187
+{"batchId":"B-24187","orderId":"SO-9931","machine":"JET-04","fabric":"100% CTN knit · 480 kg","shade":"Teal 4C","componentCount":5,"status":"RELEASED","queuedAt":"2026-08-04T06:12:00Z"}
+[HTTP 200]
+
+$ curl http://localhost:5181/api/batches/B-24187/recipe
+{"batchId":"B-24187","shade":"Teal 4C","components":[{"componentId":"DYE-4471-B","sequence":1,"code":"DYE-1180","name":"Remazol Brill. Blue RSPL","shortName":"Blue RSPL","colour":"#1f4fa8","target":{"value":1240,"unit":"g"},"tolerance":{"value":6,"unit":"g"},"lot":"2026-0341","container":"C-09","tare":{"value":214,"unit":"g"}},{"componentId":"DYE-2204-R","sequence":2,"code":"DYE-2204","name":"Remazol Red RB","shortName":"Red RB","colour":"#b8253a","target":{"value":386,"unit":"g"},"tolerance":{"value":2,"unit":"g"},"lot":"2026-0298","container":"C-11","tare":{"value":214,"unit":"g"}},{"componentId":"DYE-4471-Y","sequence":3,"code":"DYE-4471","name":"Remazol Yellow RGB","shortName":"Yellow RGB","colour":"#d9a520","target":{"value":94,"unit":"g"},"tolerance":{"value":0.5,"unit":"g"},"lot":"2026-0387","container":"C-12","tare":{"value":214,"unit":"g"}},{"componentId":"AUX-0101","sequence":4,"code":"AUX-0101","name":"Sodium Sulphate","shortName":"Na2SO4","colour":"#c9d2dc","target":{"value":24,"unit":"kg"},"tolerance":{"value":0.12,"unit":"kg"},"lot":"2026-0112","container":"D-03","tare":{"value":1.85,"unit":"kg"}},{"componentId":"AUX-0107","sequence":5,"code":"AUX-0107","name":"Soda Ash","shortName":"Soda Ash","colour":"#e4eaf0","target":{"value":9.6,"unit":"kg"},"tolerance":{"value":0.048,"unit":"kg"},"lot":"2026-0155","container":"D-05","tare":{"value":1.85,"unit":"kg"}}]}
+[HTTP 200]
+
+$ curl http://localhost:5181/api/scales
+[{"scaleId":"scale-3kg","label":"3 kg precision","unit":"g","resolution":0.1,"capacity":3000,"status":"READY"},{"scaleId":"scale-32kg","label":"32 kg floor","unit":"kg","resolution":0.001,"capacity":32,"status":"READY"}]
+[HTTP 200]
+
+$ curl http://localhost:5181/api/scales/scale-3kg/status
+{"scaleId":"scale-3kg","label":"3 kg precision","unit":"g","resolution":0.1,"capacity":3000,"status":"READY"}
+[HTTP 200]
+
+$ curl http://localhost:5181/api/scales/scale-3kg/weight
+{"scaleId":"scale-3kg","value":0,"unit":"g","stable":true,"timestamp":"2026-10-29T15:05:47.322Z"}
+[HTTP 200]
+
+$ curl -X POST http://localhost:5181/api/scales/scale-3kg/tare
+{"scaleId":"scale-3kg","value":0,"unit":"g","stable":true,"timestamp":"2026-10-29T15:05:47.328Z"}
+[HTTP 200]
+
+$ curl http://localhost:5181/api/batches/B-00000   (unknown batch)
+{"error":{"code":"BATCH_NOT_FOUND","message":"Batch B-00000 not found"}}
+[HTTP 404]
+

@@ -1,0 +1,7 @@
+flow: aidlc
+version: 0.1.74
+installed_at: '2026-10-28T21:39:07.293Z'
+tools:
+  - claude
+  - copilot
+  - gemini

@@ -1,0 +1,107 @@
+POST /api/batches/B-24187/consumption — sent by WeighingMS on completion (via OrgatexPort)
+
+Stored record in Dummy OrgaTEX (GET /api/batches/B-24187/consumption):
+[
+    {
+        "batchId": "B-24187",
+        "operatorId": "OP-017",
+        "completedAt": "2026-10-29T15:05:47.429Z",
+        "lines": [
+            {
+                "componentId": "DYE-4471-B",
+                "code": "DYE-1180",
+                "lot": "2026-0341",
+                "target": {
+                    "value": 1240,
+                    "unit": "g"
+                },
+                "actual": {
+                    "value": 1241.5,
+                    "unit": "g"
+                },
+                "scaleId": "scale-3kg",
+                "result": "IN_TOLERANCE"
+            },
+            {
+                "componentId": "DYE-2204-R",
+                "code": "DYE-2204",
+                "lot": "2026-0298",
+                "target": {
+                    "value": 386,
+                    "unit": "g"
+                },
+                "actual": {
+                    "value": 385.4,
+                    "unit": "g"
+                },
+                "scaleId": "scale-3kg",
+                "result": "IN_TOLERANCE"
+            },
+            {
+                "componentId": "DYE-4471-Y",
+                "code": "DYE-4471",
+                "lot": "2026-0387",
+                "target": {
+                    "value": 94,
+                    "unit": "g"
+                },
+                "actual": {
+                    "value": 94.2,
+                    "unit": "g"
+                },
+                "scaleId": "scale-3kg",
+                "result": "IN_TOLERANCE"
+            },
+            {
+                "componentId": "AUX-0101",
+                "code": "AUX-0101",
+                "lot": "2026-0112",
+                "target": {
+                    "value": 24,
+                    "unit": "kg"
+                },
+                "actual": {
+                    "value": 23.98,
+                    "unit": "kg"
+                },
+                "scaleId": "scale-32kg",
+                "result": "IN_TOLERANCE"
+            },
+            {
+                "componentId": "AUX-0107",
+                "code": "AUX-0107",
+                "lot": "2026-0155",
+                "target": {
+                    "value": 9.6,
+                    "unit": "kg"
+                },
+                "actual": {
+                    "value": 9.621,
+                    "unit": "kg"
+                },
+                "scaleId": "scale-32kg",
+                "result": "IN_TOLERANCE"
+            }
+        ],
+        "postId": "9e7c8dd8-490c-4030-a50a-7bc81911778c",
+        "receivedAt": "2026-10-29T15:05:47.438Z"
+    }
+]
+
+Station summary write-back status:
+{
+  "componentsWeighed": 5,
+  "componentCount": 5,
+  "allWithinTolerance": true,
+  "totalDispensedKg": 35.322,
+  "elapsedSeconds": 0,
+  "operator": "R. Karim",
+  "writeBack": {
+    "status": "CONFIRMED",
+    "confirmedAt": "2026-10-29T15:05:47.438Z",
+    "postId": "9e7c8dd8-490c-4030-a50a-7bc81911778c"
+  }
+}
+
+Direct call — HTTP status of a valid consumption POST:
+200

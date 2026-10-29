@@ -1,0 +1,43 @@
+{
+  "B-24187": {
+    "batchId": "B-24187", "shade": "Teal 4C",
+    "components": [
+      { "componentId": "DYE-4471-B", "sequence": 1, "code": "DYE-1180", "name": "Remazol Brill. Blue RSPL", "shortName": "Blue RSPL", "colour": "#1f4fa8", "target": { "value": 1240.0, "unit": "g" }, "tolerance": { "value": 6.0, "unit": "g" }, "lot": "2026-0341", "container": "C-09", "tare": { "value": 214, "unit": "g" } },
+      { "componentId": "DYE-2204-R", "sequence": 2, "code": "DYE-2204", "name": "Remazol Red RB", "shortName": "Red RB", "colour": "#b8253a", "target": { "value": 386.0, "unit": "g" }, "tolerance": { "value": 2.0, "unit": "g" }, "lot": "2026-0298", "container": "C-11", "tare": { "value": 214, "unit": "g" } },
+      { "componentId": "DYE-4471-Y", "sequence": 3, "code": "DYE-4471", "name": "Remazol Yellow RGB", "shortName": "Yellow RGB", "colour": "#d9a520", "target": { "value": 94.0, "unit": "g" }, "tolerance": { "value": 0.5, "unit": "g" }, "lot": "2026-0387", "container": "C-12", "tare": { "value": 214, "unit": "g" } },
+      { "componentId": "AUX-0101", "sequence": 4, "code": "AUX-0101", "name": "Sodium Sulphate", "shortName": "Na2SO4", "colour": "#c9d2dc", "target": { "value": 24.0, "unit": "kg" }, "tolerance": { "value": 0.12, "unit": "kg" }, "lot": "2026-0112", "container": "D-03", "tare": { "value": 1.85, "unit": "kg" } },
+      { "componentId": "AUX-0107", "sequence": 5, "code": "AUX-0107", "name": "Soda Ash", "shortName": "Soda Ash", "colour": "#e4eaf0", "target": { "value": 9.6, "unit": "kg" }, "tolerance": { "value": 0.048, "unit": "kg" }, "lot": "2026-0155", "container": "D-05", "tare": { "value": 1.85, "unit": "kg" } }
+    ]
+  },
+  "B-24188": {
+    "batchId": "B-24188", "shade": "Teal 4C",
+    "components": [
+      { "componentId": "DYE-4471-B", "sequence": 1, "code": "DYE-1180", "name": "Remazol Brill. Blue RSPL", "shortName": "Blue RSPL", "colour": "#1f4fa8", "target": { "value": 1343.3, "unit": "g" }, "tolerance": { "value": 6.5, "unit": "g" }, "lot": "2026-0341", "container": "C-14", "tare": { "value": 214, "unit": "g" } },
+      { "componentId": "DYE-2204-R", "sequence": 2, "code": "DYE-2204", "name": "Remazol Red RB", "shortName": "Red RB", "colour": "#b8253a", "target": { "value": 418.2, "unit": "g" }, "tolerance": { "value": 2.1, "unit": "g" }, "lot": "2026-0298", "container": "C-15", "tare": { "value": 214, "unit": "g" } },
+      { "componentId": "DYE-4471-Y", "sequence": 3, "code": "DYE-4471", "name": "Remazol Yellow RGB", "shortName": "Yellow RGB", "colour": "#d9a520", "target": { "value": 101.8, "unit": "g" }, "tolerance": { "value": 0.5, "unit": "g" }, "lot": "2026-0387", "container": "C-16", "tare": { "value": 214, "unit": "g" } },
+      { "componentId": "AUX-0101", "sequence": 4, "code": "AUX-0101", "name": "Sodium Sulphate", "shortName": "Na2SO4", "colour": "#c9d2dc", "target": { "value": 26.0, "unit": "kg" }, "tolerance": { "value": 0.13, "unit": "kg" }, "lot": "2026-0112", "container": "D-06", "tare": { "value": 1.85, "unit": "kg" } },
+      { "componentId": "AUX-0107", "sequence": 5, "code": "AUX-0107", "name": "Soda Ash", "shortName": "Soda Ash", "colour": "#e4eaf0", "target": { "value": 10.4, "unit": "kg" }, "tolerance": { "value": 0.052, "unit": "kg" }, "lot": "2026-0155", "container": "D-07", "tare": { "value": 1.85, "unit": "kg" } }
+    ]
+  },
+  "B-24190": {
+    "batchId": "B-24190", "shade": "Navy 12",
+    "components": [
+      { "componentId": "DYE-5101-N", "sequence": 1, "code": "DYE-5101", "name": "Remazol Navy RGB", "shortName": "Navy RGB", "colour": "#1b2a4a", "target": { "value": 2480.0, "unit": "g" }, "tolerance": { "value": 12.0, "unit": "g" }, "lot": "2026-0402", "container": "C-21", "tare": { "value": 214, "unit": "g" } },
+      { "componentId": "DYE-5102-B", "sequence": 2, "code": "DYE-5102", "name": "Remazol Black B", "shortName": "Black B", "colour": "#222222", "target": { "value": 620.0, "unit": "g" }, "tolerance": { "value": 3.0, "unit": "g" }, "lot": "2026-0405", "container": "C-22", "tare": { "value": 214, "unit": "g" } },
+      { "componentId": "DYE-2204-R", "sequence": 3, "code": "DYE-2204", "name": "Remazol Red RB", "shortName": "Red RB", "colour": "#b8253a", "target": { "value": 88.0, "unit": "g" }, "tolerance": { "value": 0.5, "unit": "g" }, "lot": "2026-0298", "container": "C-23", "tare": { "value": 214, "unit": "g" } },
+      { "componentId": "DYE-4471-Y", "sequence": 4, "code": "DYE-4471", "name": "Remazol Yellow RGB", "shortName": "Yellow RGB", "colour": "#d9a520", "target": { "value": 41.0, "unit": "g" }, "tolerance": { "value": 0.2, "unit": "g" }, "lot": "2026-0387", "container": "C-24", "tare": { "value": 214, "unit": "g" } },
+      { "componentId": "AUX-0101", "sequence": 5, "code": "AUX-0101", "name": "Sodium Sulphate", "shortName": "Na2SO4", "colour": "#c9d2dc", "target": { "value": 18.6, "unit": "kg" }, "tolerance": { "value": 0.093, "unit": "kg" }, "lot": "2026-0112", "container": "D-08", "tare": { "value": 1.85, "unit": "kg" } },
+      { "componentId": "AUX-0107", "sequence": 6, "code": "AUX-0107", "name": "Soda Ash", "shortName": "Soda Ash", "colour": "#e4eaf0", "target": { "value": 6.2, "unit": "kg" }, "tolerance": { "value": 0.031, "unit": "kg" }, "lot": "2026-0155", "container": "D-09", "tare": { "value": 1.85, "unit": "kg" } },
+      { "componentId": "AUX-0210", "sequence": 7, "code": "AUX-0210", "name": "Levelling Agent LV", "shortName": "Level LV", "colour": "#9fb8a8", "target": { "value": 930.0, "unit": "g" }, "tolerance": { "value": 4.5, "unit": "g" }, "lot": "2026-0177", "container": "C-25", "tare": { "value": 214, "unit": "g" } }
+    ]
+  },
+  "B-24191": {
+    "batchId": "B-24191", "shade": "Rose 08",
+    "components": [
+      { "componentId": "DYE-2204-R", "sequence": 1, "code": "DYE-2204", "name": "Remazol Red RB", "shortName": "Red RB", "colour": "#b8253a", "target": { "value": 228.0, "unit": "g" }, "tolerance": { "value": 1.1, "unit": "g" }, "lot": "2026-0298", "container": "C-31", "tare": { "value": 214, "unit": "g" } },
+      { "componentId": "DYE-4471-Y", "sequence": 2, "code": "DYE-4471", "name": "Remazol Yellow RGB", "shortName": "Yellow RGB", "colour": "#d9a520", "target": { "value": 19.0, "unit": "g" }, "tolerance": { "value": 0.1, "unit": "g" }, "lot": "2026-0387", "container": "C-32", "tare": { "value": 214, "unit": "g" } },
+      { "componentId": "AUX-0101", "sequence": 3, "code": "AUX-0101", "name": "Sodium Sulphate", "shortName": "Na2SO4", "colour": "#c9d2dc", "target": { "value": 9.5, "unit": "kg" }, "tolerance": { "value": 0.048, "unit": "kg" }, "lot": "2026-0112", "container": "D-11", "tare": { "value": 1.85, "unit": "kg" } },
+      { "componentId": "AUX-0107", "sequence": 4, "code": "AUX-0107", "name": "Soda Ash", "shortName": "Soda Ash", "colour": "#e4eaf0", "target": { "value": 3.8, "unit": "kg" }, "tolerance": { "value": 0.019, "unit": "kg" }, "lot": "2026-0155", "container": "D-12", "tare": { "value": 1.85, "unit": "kg" } }
+    ]
+  }
+}

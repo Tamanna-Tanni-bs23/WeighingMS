@@ -1,0 +1,78 @@
+{
+  "ticketId": "TKT-C2A7E1E4",
+  "printed": true,
+  "ticket": {
+    "title": "FCI DYEING \u2014 WEIGHING TICKET",
+    "batchId": "B-24187",
+    "orderId": "SO-9931",
+    "machine": "JET-04",
+    "shade": "Teal 4C",
+    "date": "2026-10-29 21:05",
+    "operator": "R. Karim",
+    "lines": [
+      {
+        "name": "Blue RSPL",
+        "target": {
+          "value": 1240,
+          "unit": "g"
+        },
+        "actual": {
+          "value": 1241.5,
+          "unit": "g"
+        },
+        "result": "IN_TOLERANCE"
+      },
+      {
+        "name": "Red RB",
+        "target": {
+          "value": 386,
+          "unit": "g"
+        },
+        "actual": {
+          "value": 385.4,
+          "unit": "g"
+        },
+        "result": "IN_TOLERANCE"
+      },
+      {
+        "name": "Yellow RGB",
+        "target": {
+          "value": 94,
+          "unit": "g"
+        },
+        "actual": {
+          "value": 94.2,
+          "unit": "g"
+        },
+        "result": "IN_TOLERANCE"
+      },
+      {
+        "name": "Na2SO4",
+        "target": {
+          "value": 24,
+          "unit": "kg"
+        },
+        "actual": {
+          "value": 23.98,
+          "unit": "kg"
+        },
+        "result": "IN_TOLERANCE"
+      },
+      {
+        "name": "Soda Ash",
+        "target": {
+          "value": 9.6,
+          "unit": "kg"
+        },
+        "actual": {
+          "value": 9.621,
+          "unit": "kg"
+        },
+        "result": "IN_TOLERANCE"
+      }
+    ],
+    "verdict": "ALL WITHIN TOLERANCE",
+    "barcode": "B-24187",
+    "reprint": false
+  }
+}
